@@ -6,21 +6,21 @@
 }
 main{
     height: fit-content;
-    width: 100%;
+    width: 93.6806rem;
     justify-content: center;
     
 }
 .rightside {
     background-color: white;
-    width: 69%;
-    height: 1500px;
-    color: gray;
+    width: 65.5763em;
+    height: 135em;
+    color: black;
 }
 
 .leftside {
-    background-color: gray;
-    width: 30%;
-    height: 1500px;
+    background-color: burlywood;
+    width: 28.1031em;
+    height: 135em;
     display: block;
     color: whitesmoke;
 }
@@ -28,18 +28,19 @@ main{
     display: flex;
 }
 .image {
-    margin-top: 20px;
-    border-radius: 140px;
-    margin-left: 100px;
+    margin-top: 1.25em;
+    border-radius: 8.75em;
+    margin-left: 6.25em;
     border: thin solid skyblue;
-    height: 200px;
-    width: 200px;
-    margin-bottom: 40px;
+    height: 12.5em;
+    width: 12.5em;
+    margin-bottom: 2.5em;
 }
 .contact_info{
     display: flex;
     justify-content: center;
     color: whitesmoke;
+    margin-right: 3.4375em;
 }
 .separator{
     display: flex;
@@ -48,24 +49,81 @@ main{
 .languages {
     display: block;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 6.25em;
 }
 .aptitudes {
     display: block;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 6.25em;
 }
 .informatic_skills{
     display: block;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 6.25em;
 }
 .adjust {
-    width: 220px;
+    width: 13.75em;
 }
 .courses_certificates{
     display: block;
     justify-content: center;
-    margin-left: 100px;
-    width: 220px;
+    margin-left: 6.25em;
+    width: 13.75em;
+}
+.container {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#name {
+    font-weight: bold;
+}
+.person {
+    height: 15%;
+}
+#buttons {
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 8.75em;
+    padding: 14px 28px;
+    font-size: 24px;
+    border: none;
+}
+#buttons:hover{
+    cursor: pointer;
+    background-color: rgb(164, 218, 240);
+    color: black;
+    -webkit-transition: background-color 800ms linear;
+    -ms-transition: background-color 800ms linear;
+    transition: background-color 800ms linear;
+    -webkit-transition: color 800ms linear;
+    -ms-transition: color 800ms linear;
+    transition: color 800ms linear;
+}
+#imgs{
+    height: 9.375rem;
+    width: 9.375rem;
+    border-radius: 8.75em;
+}
+#spans {
+    font-weight: bolder;
+    color: blue;
+    font-size: 30px;
+}
+#ps{
+    margin-top: 0.875rem;
+}
+#uls {
+    width: 330px;
+    margin-left: 350px;
+}
+.hidden{
+    display: none;
+}
+.img_container{
+    text-align: center;
+}
+#ul_container {
+    text-align: center;
 }
